@@ -7,11 +7,11 @@
 // __TIME__    //文件被编译的时间
 //__STDC__    //如果编译器遵循ANSI C，其值为1，否则未定义
 
-//int main()
-//{
-//	printf("%d\n", __STDC__);
-//	return 0;
-//}
+int main()
+{
+	printf("%d\n", __STDC__);
+	return 0;
+}
 //说明vs这个编译器不支持__STDC__
 //Linux的编译器gcc是支持的
 
